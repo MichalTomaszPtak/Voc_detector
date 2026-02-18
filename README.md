@@ -7,5 +7,10 @@ PCB layout: https://365.altium.com/files/D3AF03CD-3467-4042-AEBF-ECEB7C44DFD2
 PCB image:
 <img src="images/PCB_Screenshot.png" alt="Finished_PCB" width="100%" />
 <br>
-This board uses an i2c protocol to communicate with BME688 sensor and standard uart for gps. The projects follows the practices to reduce EMI, espacially as it contains RF components.
+This board uses an i2c protocol to communicate with BME688 sensor and standard uart for gps. The projects follows the practices to reduce EMI, espacially as it contains RF components. It is noteworthy that the MCU should work in a switch mode power supply. Useful details:
+<br>
+https://www.st.com/resource/en/datasheet/stm32wb55cc.pdf
+<br>
+https://www.st.com/resource/en/application_note/an5165-how-to-develop-rf-hardware-using-stm32wb-microcontrollers-stmicroelectronics.pdf
+
 
