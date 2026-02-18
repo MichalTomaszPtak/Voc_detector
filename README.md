@@ -6,4 +6,6 @@ PCB layout: https://365.altium.com/files/D3AF03CD-3467-4042-AEBF-ECEB7C44DFD2
 <br>
 PCB image:
 <img src="images/PCB_Screenshot.png" alt="Finished_PCB" width="100%" />
+<br>
+This board uses an i2c protocol to communicate with BME688 sensor and standard uart for gps. The projects follows the practices to reduce EMI, espacially as it contains RF components.
 
